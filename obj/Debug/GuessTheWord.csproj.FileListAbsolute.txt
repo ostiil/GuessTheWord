@@ -9,3 +9,4 @@ D:\c#\GuessTheWord\obj\Debug\GuessTheWord.csproj.CoreCompileInputs.cache
 D:\c#\GuessTheWord\obj\Debug\GuessTheWord.exe
 D:\c#\GuessTheWord\obj\Debug\GuessTheWord.pdb
 D:\c#\GuessTheWord\obj\Debug\GuessTheWord.RulesOfTheGame.resources
+D:\c#\GuessTheWord\obj\Debug\GuessTheWord.csproj.SuggestedBindingRedirects.cache
