@@ -162,7 +162,7 @@ namespace GuessTheWord
             this.CheckButton.TabIndex = 4;
             this.CheckButton.Text = "Проверить";
             this.CheckButton.UseVisualStyleBackColor = true;
-            this.CheckButton.Click += new System.EventHandler(this.button1_Click);
+            this.CheckButton.Click += new System.EventHandler(this.CheckButton_Click);
             // 
             // label2
             // 

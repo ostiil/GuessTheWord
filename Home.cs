@@ -33,7 +33,7 @@ namespace GuessTheWord
             Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CheckButton_Click(object sender, EventArgs e)
         {
             again:
             string word = textBox1.Text.ToLower();
@@ -151,8 +151,9 @@ namespace GuessTheWord
                 Clean();
                 secLabel.Text = sec.ToString();
                 minLabel.Text = min.ToString();
+                MessageBox.Show($"Время вышло. Вы проиграли. Загаданная буква: {letter}. Чтобы начать игру сначала выберите алфавит", "Объявление");
                 label3.Visible = true;
-                label3.Text = $"Время вышло. Вы проиграли. Загаданная буква: {letter}. Чтобы начать игру сначала выберите алфавит";
+                label3.Text = $"";
                 sec = 30; min = 0;
             }
         }
